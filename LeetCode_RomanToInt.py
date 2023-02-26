@@ -16,7 +16,7 @@ class Solution(object):
 
     result=0  #initialiasing result
 
-    for a,b in zip(s,s[1:]):
+    for a,b in zip(s,s[1:]):      #zip function to taveerse string
       if roman[a] <roman[b]:
         result -=roman[a]
       else:
